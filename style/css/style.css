@@ -1,5 +1,34 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-image: url('../background/mtfuji_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
+
+header{
+    background-color: rgb(168, 82, 88);
+    min-height: 50px;
+    padding: 10px;
+}
+
+header li{
+    display: inline;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+
