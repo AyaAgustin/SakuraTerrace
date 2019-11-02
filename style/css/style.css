@@ -1,26 +1,5 @@
-header{
-
-}
-
 body{
-
-}
-
-footer{
-
-}
-
-h1{
-
-}
-
-h2{
-
-}
-h3{
-
-}
-
-h4{
-
+    background-image: url('../background/mtfuji_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Kreon";
+    src: url('../fonts/Kreon/Kreon-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: "Gochi Hand";
+    src: url('../fonts/Gochi_Hand/GochiHand-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Concert One";
+    src: url('../fonts/Concert_One/ConcertOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Lobster Two";
+    src: url('../fonts/Lobster_Two/LobsterTwo-Bold.ttf');
+    src: url('../fonts/Lobster_Two/LobsterTwo-BoldItalic.ttf');
+    src: url('../fonts/Lobster_Two/LobsterTwo-Italic.ttf');
+    src: url('../fonts/Lobster_Two/LobsterTwo-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Anamatic SC";
+    src: url('../fonts/Amatic_SC/AmaticSC-Bold.ttf');
+    src: url('../fonts/Amatic_SC/AmaticSC-Regular.ttf');
+    
+}
+
