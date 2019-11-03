@@ -24,10 +24,11 @@ body{
 /* STYLE FOR HEADER */
 header{
     background-color: #6B1E23;
-    min-height: 10px;
+    width: 100%;
+    overflow: hidden;
     margin: 0;
     padding: 10px;
-    overflow: hidden;
+    
 }
 
 header .left{
@@ -67,6 +68,24 @@ header h3{
     margin: 0;
     padding: 0;
 }
+
+/* */
+#showCase{
+    padding: 5%;
+    height: 700px;
+    contain: content;
+}
+
+#display{
+    overflow: hidden;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
