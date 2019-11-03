@@ -13,16 +13,6 @@ body{
     padding: 0;
 }
 
-header{
-    background-color: rgba(168, 82, 88, 0.6);
-    min-height: 50px;
-    padding: 10px;
-}
-
-header li{
-    display: inline;
-}
-
 .left{
     float: left;
 }
@@ -30,5 +20,55 @@ header li{
 .right{
     float: right;
 }
+
+/* STYLE FOR HEADER */
+header{
+    background-color: #6B1E23;
+    min-height: 10px;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header .left{
+    margin: 0;
+    padding: 0;
+    min-height: inherit;
+}
+
+header .right{
+    min-height: inherit;
+    
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover{
+    background-color: antiquewhite;
+}
+
+header h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 

@@ -1,3 +1,4 @@
+/* OFFLINE FONTS */
 @font-face{
     font-family: "Kreon";
     src: url('../fonts/Kreon/Kreon-VariableFont_wght.ttf');
@@ -28,6 +29,7 @@
     
 }
 
+/* GLOBAL FONTS */
 h3{
     font-family: 'Kreon', serif;
 }
