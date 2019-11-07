@@ -109,5 +109,39 @@ header h3{
    text-transform: uppercase;
 }
 
+.contactCont{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contactHead{
+    margin-bottom: 20px;
+}
+.contactLeft{
+    width: 30%;
+    float: left;
+    margin: 10px;
+ 
+}
+.contactLeft input[type="text"]{
+    overflow: auto;
+    text-align: center;
+}
+
+#commentSize input[type="text"]{
+    height: 100px;
+
+}
+.map{
+    text-align: center;
+    
+}
+.map img{
+    border-style: solid;
+    border-color: black;
+}
 
 
