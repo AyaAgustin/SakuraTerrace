@@ -70,7 +70,7 @@ header h3{
     padding: 0;
 }
 
-/* */
+/*  */
 #showCase{
     padding: 5%;
     height: 700px;
@@ -108,6 +108,7 @@ header h3{
    text-decoration: none;
    text-transform: uppercase;
 }
+/*style for menu*/
 
 .contactCont{
     background-color: rgb(255, 255, 255, 0.7);
