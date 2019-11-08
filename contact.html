@@ -55,7 +55,6 @@
             <p>Phone: 09177808788 </p>
         </div>
 
-        
         <div class="contactRight" id="comment">
                 <form action="">
                     <br>
@@ -64,9 +63,7 @@
             </div>
             
         <div class="contactRight" id="info">
-            
-            <form action="">
-                
+            <form action="">     
                 Please fill in the ff:
                 <input type="text" name="name" id="Name" placeholder="Name">
     
@@ -77,15 +74,30 @@
             </form>
             <br>
             <input type="submit" value="Submit">
-           
-
         </div>
 
-        
-
-
-        <div class="map">
-            <img src="style/images/map.JPG" alt="">
+        <div class="map_placeHolder">
+            <div id="map"></div>
+            <script>
+            // Initialize and add the map
+            function initMap() {
+            // The location of Uluru
+                var uluru = {lat: 16.403076, lng: 120.599288};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: sakura terrace});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: sakura terrace, map: map});
+            }       
+            </script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPvgn0y5GySqzdrWWAoOl5tgtpWLUb6Tg&callback=initMap">
+            </script>
         </div>
 
         <div class="reservation">
