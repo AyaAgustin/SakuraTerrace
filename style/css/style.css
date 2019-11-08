@@ -118,29 +118,47 @@ header h3{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 .contactHead{
     margin-bottom: 20px;
 }
+
 .contactLeft{
     width: 30%;
     float: left;
     margin: 10px;
  
 }
-.contactLeft input[type="text"]{
-    overflow: auto;
+.contactRight{
+    width: 20%;
+    float: right;
+    margin: 10px;
+}
+#info{
     text-align: center;
 }
+#comment{
+    text-align: center;
 
-#commentSize input[type="text"]{
+}
+.contactRight input[type="text"]{
+    text-align: center;
+    width: 100%;
+    
+}
+#comment input[type="text"]{
     height: 100px;
+    text-align: center;
 
 }
 .map{
+    width: 100%;
     text-align: center;
+    margin-top: 300px;
     
 }
 .map img{
+    width: 100%;
     border-style: solid;
     border-color: black;
 }

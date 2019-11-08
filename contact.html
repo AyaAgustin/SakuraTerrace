@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,14 @@
 
     <link rel="stylesheet" href="style/css/style.css" type="text/css">
     <link rel="stylesheet" href="style/css/fonts.css" type="text/css">
-    
+
     <link rel="stylesheet" href="style/boostrap/css/bootstrap-grid.css" type="text/css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Concert+One|Gochi+Hand|Kreon|Lobster+Two&demo=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Concert+One|Gochi+Hand|Kreon|Lobster+Two&demo=swap"
+        rel="stylesheet">
 
     <title>Contact</title>
 </head>
@@ -23,57 +25,64 @@
     <script src="style/boostrap/js/bootstrap.js"></script>
 
     <header>
-          <div class="left">
-                <h3>Sakura Terrace</h3>
-          </div>
-          
-          <div class="right">
-              <nav>
-                  <ul>
-                      <li>Home</li>
-                      <li>Menu</li>
-                      <li>Online Order</li>
-                      <li>Catering</li>
-                      <li>Chef</li>
-                      <li>Contact</li>
-                  </ul>
-              </nav>
-          </div>
+        <div class="left">
+            <h3>Sakura Terrace</h3>
+        </div>
+
+        <div class="right">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Menu</li>
+                    <li>Online Order</li>
+                    <li>Catering</li>
+                    <li>Chef</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class= "contactCont">
+    <section class="contactCont">
+        
         <div class="contactHead">
-            <h1>CONTACT</h1> 
+            <h1>CONTACT</h1>
         </div>
-            
 
         <div class="contactLeft">
             <p>Sakura Terrace</p>
             <p>Millitary Cutoff Rd, Baguio, 2600 Benguet</p>
             <p>Phone: 09177808788 </p>
         </div>
-        <div class="contactLeft">
-            <form action="">
-                
-                <input type="text" name="name" id="Name" placeholder="Name">
-                <br>
-               
-                <input type="text" name="email" id="Email" placeholder="Email">
-                <br>
-               
-                <input type="text" name="phone" id="Phone" placeholder="Phone">
-                
-            </form>
 
-        </div>
         
-        <br>
-
-        <div class="contactLeft" id="commentSize">
+        <div class="contactRight" id="comment">
+                <form action="">
+                    <br>
+                    <input type="text" name="comment" id="comment" placeholder="Type your message here...">
+                </form>
+            </div>
+            
+        <div class="contactRight" id="info">
+            
             <form action="">
-                    <input type="text" name="comment" id="Comment" placeholder="Type your message here...">
+                
+                Please fill in the ff:
+                <input type="text" name="name" id="Name" placeholder="Name">
+    
+                <input type="text" name="email" id="Email" placeholder="Email">
+
+                <input type="text" name="phone" id="Phone" placeholder="Phone">
+
             </form>
+            <br>
+            <input type="submit" value="Submit">
+           
+
         </div>
+
+        
+
 
         <div class="map">
             <img src="style/images/map.JPG" alt="">
@@ -81,7 +90,7 @@
 
         <div class="reservation">
             <h3>Make a Reservation</h3>
-            
+
             <select name="" id="">
                 <option value="date">Date</option>
             </select>
@@ -91,13 +100,14 @@
             <select name="" id="">
                 <option value="partusize">Party Size</option>
             </select>
-            <button>Book Now</button>
+            <input type="submit" value="Book Now">
         </div>
 
-       
-
-        
     </section>
 
+
+
+
 </body>
+
 </html>
