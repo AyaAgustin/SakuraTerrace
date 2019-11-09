@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../background/mtfuji_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.left{
+    float: left;
+    color: white;
+}
+
+.right{
+    float: right;
+}
+
+/* STYLE FOR HEADER */
+header{
+    background-color: #6B1E23;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px;
+    
+}
+
+header .left{
+    margin: 0;
+    padding: 0;
+    min-height: inherit;
+}
+
+header .right{
+    min-height: inherit;
+    
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+header li{
+    display: inline;
+    text-align: center;
+    list-style: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header a:hover{
+    background-color: antiquewhite;
+}
+
+header h3{
+    margin: 0;
+    padding: 0;
+}
+
+/*  */
+#showCase{
+    padding: 5%;
+    height: 700px;
+    contain: content;
+}
+
+#display{
+    overflow: hidden;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.reservation{
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 80px;
+    padding: 80px;
+    text-align: center;
+}
+.box{
+ margin-left: 80px;
+}
+.choice{
+    background-color: rgb(255, 255, 255, 0.7);
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding:10px;
+    margin: 10px;
+}
+.extras a{
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   text-transform: uppercase;
+}
+/*style for menu*/
+
+.contactCont{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contactHead{
+    margin-bottom: 20px;
+}
+
+.contactLeft{
+    width: 30%;
+    float: left;
+    margin: 10px;
+ 
+}
+.contactRight{
+    width: 20%;
+    float: right;
+    margin: 10px;
+}
+#info{
+    text-align: center;
+}
+#comment{
+    text-align: center;
+
+}
+.contactRight input[type="text"]{
+    text-align: center;
+    width: 100%;
+    
+}
+#comment input[type="text"]{
+    height: 100px;
+    text-align: center;
+
+}
+.map{
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+    
+}
+.map img{
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+
