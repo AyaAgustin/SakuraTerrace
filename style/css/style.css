@@ -23,7 +23,7 @@
 }
 
 @font-face{
-    font-family: "Anamatic SC";
+    font-family: "Amatic SC";
     src: url('../fonts/Amatic_SC/AmaticSC-Bold.ttf');
     src: url('../fonts/Amatic_SC/AmaticSC-Regular.ttf');
     
@@ -34,8 +34,21 @@ h3{
     font-family: 'Kreon', serif;
 }
 
+a{
+    font-family: 'Amatic SC', cursive;
+}
+
 html{
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../background/bckgr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -51,12 +64,16 @@ html{
 
 /* STYLE FOR HEADER */
 header{
-    background-color: #6B1E23;
+    background-color: #4C1624;
     width: 100%;
     overflow: hidden;
     margin: 0;
     padding: 10px;
-    
+}
+
+header h3{
+    letter-spacing: 5px;
+    font-size: 30px;
 }
 
 header .left{
@@ -67,7 +84,6 @@ header .left{
 
 header .right{
     min-height: inherit;
-    
 }
 
 header ul{
@@ -86,6 +102,9 @@ header a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 3px;
 }
 
 header a:hover{
