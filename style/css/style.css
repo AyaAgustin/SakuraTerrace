@@ -40,6 +40,15 @@ html{
     padding: 0;
 }
 
+.left{
+    float: left;
+    color: white;
+}
+
+.right{
+    float: right;
+}
+
 /* STYLE FOR HEADER */
 header{
     background-color: #6B1E23;

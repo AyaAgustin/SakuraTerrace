@@ -7,15 +7,6 @@ body{
     padding: 0;
 }
 
-.left{
-    float: left;
-    color: white;
-}
-
-.right{
-    float: right;
-}
-
 /*  */
 #showCase{
     padding: 5%;
