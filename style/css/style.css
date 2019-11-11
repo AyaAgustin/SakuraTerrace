@@ -55,7 +55,6 @@ body{
 
 .left{
     float: left;
-    color: white;
 }
 
 .right{
@@ -66,12 +65,15 @@ body{
 header{
     background-color: #4C1624;
     width: 100%;
-    overflow: hidden;
     margin: 0;
-    padding: 10px;
+    padding: 0.7%;
+    overflow: hidden;
 }
 
 header h3{
+    margin: 0;
+    padding: 0;
+    color: white;
     letter-spacing: 5px;
     font-size: 30px;
 }
@@ -79,11 +81,6 @@ header h3{
 header .left{
     margin: 0;
     padding: 0;
-    min-height: inherit;
-}
-
-header .right{
-    min-height: inherit;
 }
 
 header ul{
@@ -109,9 +106,5 @@ header a{
 
 header a:hover{
     background-color: antiquewhite;
-}
-
-header h3{
-    margin: 0;
-    padding: 0;
+    text-decoration: none;
 }
