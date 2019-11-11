@@ -16,31 +16,26 @@
     margin-bottom: 20px;
 }
 
-.contactLeft{
-    width: 30%;
-    float: left;
-    margin: 10px;
- 
+#flexInf{
+    justify-content: space-between;
+    display: flex;
+    
 }
-.contactRight{
-    width: 20%;
-    float: right;
-    margin: 10px;
-}
-#info{
+#info input[type="text"]{
     text-align: center;
-}
-#comment{
-    text-align: center;
-
-}
-.contactRight input[type="text"]{
-    text-align: center;
-    width: 100%;
+    width: 75%;
+    
     
 }
 #comment input[type="text"]{
     height: 100px;
     text-align: center;
 
+}
+.reser{
+    text-align: center;
+}
+.reservation{
+    justify-content:space-around;
+    display: flex;
 }

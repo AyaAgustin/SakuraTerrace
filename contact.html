@@ -28,7 +28,7 @@
         <div class="left">
             <h3>Sakura Terrace</h3>
         </div>
-        
+
         <div class="right">
             <nav>
                 <ul>
@@ -42,69 +42,79 @@
     </header>
 
     <section class="contactCont">
-        
         <div class="contactHead">
             <h1>CONTACT</h1>
         </div>
+        <section id="flexInf">
+            <div class="contactLeft">
+                <p>Sakura Terrace</p>
+                <p>Millitary Cutoff Rd, Baguio, 2600 Benguet</p>
+                <p>Phone: 09177808788 </p>
+            </div>
 
-        <div class="contactLeft">
-            <p>Sakura Terrace</p>
-            <p>Millitary Cutoff Rd, Baguio, 2600 Benguet</p>
-            <p>Phone: 09177808788 </p>
-        </div>
+            <div class="contactRight" id="info">
+                <form action="">
+                    Please fill in the ff:
+                    <input type="text" name="name" id="Name" placeholder="Name">
 
-        <div class="contactRight" id="comment">
+                    <input type="text" name="email" id="Email" placeholder="Email">
+
+                    <input type="text" name="phone" id="Phone" placeholder="Phone">
+
+                </form>
+                <br>
+                <input type="submit" value="Submit">
+            </div>
+
+            <div class="contactRight" id="comment">
                 <form action="">
                     <br>
                     <input type="text" name="comment" id="comment" placeholder="Type your message here...">
                 </form>
             </div>
-            
-        <div class="contactRight" id="info">
-            <form action="">     
-                Please fill in the ff:
-                <input type="text" name="name" id="Name" placeholder="Name">
-    
-                <input type="text" name="email" id="Email" placeholder="Email">
-
-                <input type="text" name="phone" id="Phone" placeholder="Phone">
-
-            </form>
-            <br>
-            <input type="submit" value="Submit">
-        </div>
+        </section>
 
         <div class="map_placeHolder">
             <div id="map"></div>
             <script>
                 function initMap() {
-                    var sakuraTerrace = {lat: 16.403076, lng: 120.599288};
-                    
+                    var sakuraTerrace = { lat: 16.403076, lng: 120.599288 };
+
                     var map = new google.maps.Map(
-                    document.getElementById('map'), {zoom: 20, center: sakuraTerrace});
-                    
-                    var marker = new google.maps.Marker({position: sakuraTerrace, map: map});
+                        document.getElementById('map'), { zoom: 20, center: sakuraTerrace });
+
+                    var marker = new google.maps.Marker({ position: sakuraTerrace, map: map });
                 }       
             </script>
-            
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPvgn0y5GySqzdrWWAoOl5tgtpWLUb6Tg&callback=initMap">
-            </script>
-        </div>
 
-        <div class="reservation">
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPvgn0y5GySqzdrWWAoOl5tgtpWLUb6Tg&callback=initMap">
+                </script>
+        </div>
+        <br>
+        <br>
+        <section class="reser">
             <h3>Make a Reservation</h3>
-
-            <select name="" id="">
-                <option value="date">Date</option>
-            </select>
-            <select name="" id="">
-                <option value="time">Time</option>
-            </select>
-            <select name="" id="">
-                <option value="partusize">Party Size</option>
-            </select>
+            <section class="reservation">
+                <div>
+                    <select name="" id="">
+                        <option value="date">Date</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="time">Time</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="partusize">Party Size</option>
+                    </select>
+                </div>
+            </section>
             <input type="submit" value="Book Now">
-        </div>
+        </section>
+
 
     </section>
 </body>
