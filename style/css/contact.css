@@ -33,12 +33,14 @@
     border: none;
     width: 75%;
     border-bottom: 1px solid crimson;
+    background-color: rgba(0,0,0,0);
+    outline: none;
     
 }
 #comment input[type="submit"]{
     background-color: rgb(226, 42, 79);
     color: white;
-    padding: 8px;
+    padding: 10px;
     width: 100%;
     border: none;
     font-size: 15px;
@@ -48,13 +50,17 @@
 }
 #comment input[type="text"]{
     height: 100px;
+    width: 200px;
     text-align: center;
     border-color: crimson;
     box-shadow: 0 5px 25px rgba(0, 0,0, .3);
     color:crimson;
+    outline: none;
 }
 .reser{
     text-align: center;
+    background-color: rgb(230, 94, 121,0.3);
+    height: 200px;
 }
 .reservation{
     justify-content:space-around;
@@ -67,6 +73,7 @@
     width: 120px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
@@ -81,12 +88,14 @@
     width: 120px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
     outline: none;
 }
-.reser h2{
+.reser h1{
     letter-spacing: 2px;
     padding: 20px;
 }
+
