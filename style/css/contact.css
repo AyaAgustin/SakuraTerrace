@@ -34,6 +34,7 @@
     width: 75%;
     border-bottom: 1px solid crimson;
     background-color: rgba(0,0,0,0);
+    outline: none;
     
 }
 #comment input[type="submit"]{
@@ -54,6 +55,7 @@
     border-color: crimson;
     box-shadow: 0 5px 25px rgba(0, 0,0, .3);
     color:crimson;
+    outline: none;
 }
 .reser{
     text-align: center;
@@ -71,6 +73,7 @@
     width: 120px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
@@ -85,6 +88,7 @@
     width: 120px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;

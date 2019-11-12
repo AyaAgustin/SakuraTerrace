@@ -13,6 +13,13 @@
     width: 100%;
     height: auto;
 }
+.carousel-inner h1{
+    position: absolute;
+    padding: 10px;
+    font-family: 'Kreon', serif;
+    color: white;
+    background-color: rgb(233, 86, 115,0.3);
+}
 
 /* STYLE FOR RESERVATION */
 .reservation{
@@ -30,10 +37,12 @@
     width: 150px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
     outline: none;
+    
     
 }
 .reservation input[type="submit"]{
@@ -43,6 +52,7 @@
     width: 120px;
     height: 40px;
     border: none;
+    border-radius: 50px;
     font-size: 15px;
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
