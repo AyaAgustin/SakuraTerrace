@@ -17,7 +17,6 @@
 /* STYLE FOR RESERVATION */
 .reservation{
     text-align: center;
-<<<<<<< HEAD
     background-color: rgba(255, 255, 255, .5);
 }
 
@@ -49,15 +48,6 @@
 .reserveCont{
     justify-content: space-around;
     display: flex;
-=======
-    overflow: hidden;
-    margin: 20px 0;
-    padding: 0 4%;
-}
-
-.reserve{
-    background-color: rgb(255, 255, 255, 0.7);
->>>>>>> c82ef96332a8f3454695caacf93b2ad3cda8b12c
 }
 
 .rhead{
