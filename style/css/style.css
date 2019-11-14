@@ -123,7 +123,7 @@ header{
     background-color: rgba(113, 42, 68, 0.7);
     width: 100%;
     margin: 0;
-    padding: 0.5%;
+    padding: 0%;
     overflow: hidden;
 
 }
@@ -132,13 +132,16 @@ header .container{
     max-width: 100%;
     margin: 0;
     padding: 0;
+    overflow: unset;
 }
 
 header .left{
+    margin: 5px;
     padding: 5px;
 }
 
 header .right{
+    margin: 5px;
     padding: 5px;
 }
 
@@ -169,7 +172,7 @@ header a{
     font-size: 20px;
     letter-spacing: 3px;
     padding: 11px 14px;
-    border-bottom: solid 1px transparent;
+    border-bottom: solid 5px transparent;
     transition: border-bottom-color .3s ease-in-out;
 }
 

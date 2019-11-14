@@ -134,8 +134,8 @@
 .extras a{
    color: rgb(0, 0, 0);
    text-decoration: none;
-   text-transform: uppercase;
-   border-bottom: solid 1px transparent;
+   letter-spacing: 2px;
+   border-bottom: solid 5px transparent;
     transition: border-bottom-color .3s ease-in-out;
 }
 
