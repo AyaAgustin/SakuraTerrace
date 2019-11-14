@@ -88,7 +88,7 @@ html{
 }
 
 body{
-    background-image: url('../background/bg_test_5.jpg');
+    background-image: url('../background/bckgrnd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -121,7 +121,7 @@ header{
     margin: 0;
     padding: 0.5%;
     overflow: hidden;
-    
+
 }
 
 header .left{
@@ -156,12 +156,15 @@ header li{
 header a{
     color: white;
     text-decoration: none;
-    padding: 10px;
     font-size: 20px;
     letter-spacing: 3px;
+    padding: 11px 14px;
+    border-bottom: solid 1px transparent;
+    transition: border-bottom-color .3s ease-in-out;
 }
 
 header a:hover{
-    background-color: antiquewhite;
     text-decoration: none;
+    color: rgb(240, 163, 200);
+    border-bottom: solid 5px rgb(240, 163, 200);
 }
