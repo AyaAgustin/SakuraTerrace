@@ -1,0 +1,39 @@
+.chefCon{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.chefFront h1{
+   font-size: 60px;
+   padding: 10px;
+}
+#chefInt h3{
+    font-size: 40px;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+#chefName h3{
+    margin: 0px;
+    font-size: 2.5vw;
+    height: auto;
+    position: absolute;
+    font-family: 'Kreon', serif;
+    color: white;
+    background-color: rgb(233, 86, 115,0.3);
+    
+}
+#chefName{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+#chefName img{
+   border-style: solid;
+   border-color: rgb(226, 28, 68);
+   min-width: 30%;
+   width: 100%;
+   height: auto;
+}
+
