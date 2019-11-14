@@ -36,4 +36,17 @@
    width: 100%;
    height: auto;
 }
-
+.chefLeft{
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+}
+.chefRight{
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+.chefDesc{
+    display: flex;
+    justify-content: space-between;
+}

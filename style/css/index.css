@@ -12,6 +12,8 @@
 .carousel-item img{
     width: 100%;
     height: auto;
+    border-style: solid;
+    border-color: crimson;
 }
 .carousel-inner h1{
     position: absolute;
