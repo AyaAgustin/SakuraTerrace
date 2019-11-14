@@ -128,6 +128,12 @@ header{
 
 }
 
+header .container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header .left{
     padding: 5px;
 }
