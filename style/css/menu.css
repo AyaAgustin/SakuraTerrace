@@ -80,18 +80,18 @@ p{
     src: url('../fonts/Lobster_Two/LobsterTwo-Italic.ttf');
     src: url('../fonts/Lobster_Two/LobsterTwo-Regular.ttf');
 }
-nav{
+.formenu{
     position: fixed;
     padding-left: 250px;
     padding-right: 250px;
     margin-top: 0%;
 }
-ul{
+.formenu1{
     text-align: center;
     
     
 }
-li{
+.formenu2{
     
     padding-right: 10px;
     list-style: none;
@@ -102,7 +102,7 @@ li{
     background-color: rgb(99, 46, 62, 0.5);
 
 }
-a{
+.formenu3{
     
     color: black;
     text-decoration: none;
