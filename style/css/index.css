@@ -42,9 +42,8 @@
     box-shadow: 0 5px 25px rgba(0, 0,0, .5);
     -webkit-appearance: button;
     outline: none;
-    
-    
 }
+
 .reservation input[type="submit"]{
     background-color: rgb(226, 42, 79);
     color: white;
@@ -58,6 +57,7 @@
     -webkit-appearance: button;
     outline: none;
 }
+
 .reserveCont{
     justify-content: space-around;
     display: flex;
@@ -67,8 +67,6 @@
     letter-spacing: 2px;
     padding: 20px;
 }
-
-
 
 /* STYLE FOR OTHERS*/
 .others{
