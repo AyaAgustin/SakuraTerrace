@@ -24,106 +24,106 @@
 <body>
     <script src="style/boostrap/js/bootstrap.js"></script>
 
-    <header>
-        <div class="left">
-            <h3>Sakura Terrace</h3>
-        </div>
-
-        <div class="right">
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="chef.html">Chef</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section class="contactCont">
-        <div class="contactHead">
-            <h1>CONTACT</h1>
-        </div>
-        <section id="flexInf">
-            <div class="contactLeft">
-                <p>Sakura Terrace</p>
-                <p>Millitary Cutoff Rd, Baguio, Benguet, 2600</p>
-                <p>Phone: 09177808788 </p>
+    <div id="dark_overlay">
+        <header>
+            <div class="left">
+                <h3>Sakura Terrace</h3>
             </div>
 
-            <div class="contactRight" id="info">
-                <form action="">
-                    Please fill in the ff:
-                    <input type="text" name="name" placeholder="Name">
-                    <br><br>
-                    <input type="text" name="email" placeholder="Email">
-                    <br><br>
-                    <input type="text" name="phone" placeholder="Phone">
-
-                </form>
-
-
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="chef.html">Chef</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
+        </header>
 
-            <div class="contactRight" id="comment">
-                <form action="">
+        <section class="contactCont">
+            <div class="contactHead">
+                <h1>CONTACT</h1>
+            </div>
+            <section id="flexInf">
+                <div class="contactLeft">
+                    <p>Sakura Terrace</p>
+                    <p>Millitary Cutoff Rd, Baguio, Benguet, 2600</p>
+                    <p>Phone: 09177808788 </p>
+                </div>
+
+                <div class="contactRight" id="info">
+                    <form action="">
+                        Please fill in the ff:
+                        <input type="text" name="name" placeholder="Name">
+                        <br><br>
+                        <input type="text" name="email" placeholder="Email">
+                        <br><br>
+                        <input type="text" name="phone" placeholder="Phone">
+
+                    </form>
+
+
+                </div>
+
+                <div class="contactRight" id="comment">
+                    <form action="">
+                        <br>
+                        <input type="text" name="comment" id="comment" placeholder="Type your message here...">
+                    </form>
                     <br>
-                    <input type="text" name="comment" id="comment" placeholder="Type your message here...">
-                </form>
-                <br>
-                <input type="submit" value="SUBMIT">
-            </div>
-        </section>
-        <br><br>
-        <div class="map_placeHolder">
-            <div id="map"></div>
-            <script>
-                function initMap() {
-                    var sakuraTerrace = { lat: 16.403076, lng: 120.599288 };
-
-                    var map = new google.maps.Map(
-                        document.getElementById('map'), { zoom: 20, center: sakuraTerrace });
-
-                    var marker = new google.maps.Marker({ position: sakuraTerrace, map: map });
-                }       
-            </script>
-
-            <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPvgn0y5GySqzdrWWAoOl5tgtpWLUb6Tg&callback=initMap">
-                </script>
-        </div>
-        <br>
-        <br>
-        <section class="reser">
-            <h1>Make a Reservation</h1>
-            <section class="reservation">
-                <div>
-                    <form action="">
-                        <input type="date" name="orderDate" id="dateOrder">
-                    </form>
-                </div>
-                <div>
-                    <form action="">
-                        <input type="time" name="orderDate" id="dateOrder">
-                    </form>
-                </div>
-                <div>
-                    <select name="" id="">
-                        <option value="partusize">Party Size</option>
-                        <option value="">Party One</option>
-                        <option value="">Party Two</option>
-                    </select>
+                    <input type="submit" value="SUBMIT">
                 </div>
             </section>
-            <br>
-            <div>
-                <input type="submit" value="Book Now">
+            <br><br>
+            <div class="map_placeHolder">
+                <div id="map"></div>
+                <script>
+                    function initMap() {
+                        var sakuraTerrace = { lat: 16.403076, lng: 120.599288 };
+
+                        var map = new google.maps.Map(
+                            document.getElementById('map'), { zoom: 20, center: sakuraTerrace });
+
+                        var marker = new google.maps.Marker({ position: sakuraTerrace, map: map });
+                    }       
+                </script>
+
+                <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPvgn0y5GySqzdrWWAoOl5tgtpWLUb6Tg&callback=initMap">
+                    </script>
             </div>
+            <br>
+            <br>
+            <section class="reser">
+                <h1>Make a Reservation</h1>
+                <section class="reservation">
+                    <div>
+                        <form action="">
+                            <input type="date" name="orderDate" id="dateOrder">
+                        </form>
+                    </div>
+                    <div>
+                        <form action="">
+                            <input type="time" name="orderDate" id="dateOrder">
+                        </form>
+                    </div>
+                    <div>
+                        <select name="" id="">
+                            <option value="partusize">Party Size</option>
+                            <option value="">Party One</option>
+                            <option value="">Party Two</option>
+                        </select>
+                    </div>
+                </section>
+                <br>
+                <div>
+                    <input type="submit" value="Book Now">
+                </div>
+            </section>
         </section>
-
-
-    </section>
+    </div>
 </body>
 
 </html>
