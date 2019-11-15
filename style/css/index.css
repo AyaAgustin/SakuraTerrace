@@ -21,17 +21,24 @@
     font-family: 'Kreon', serif;
     color: white;
     background-color: rgb(233, 86, 115,0.3);
+    
 }
-
+.carousel-inner{
+    width: 50%;
+    height: 0%;
+    padding-bottom: 30%;
+}
 /* STYLE FOR RESERVATION */
 .reservation{
     text-align: center;
-    margin: 45px 0; 
 }
 
 .reservation .container{
     background-color: rgba(255, 255, 255, .5);
     overflow: hidden;
+    width: 67%;
+    height: 0;
+    padding-bottom: 15%;
 }
 
 .reservation select{
@@ -90,6 +97,7 @@
     outline: none;
 }
 
+
 .rhead{
     letter-spacing: 2px;
     margin: 10px;
@@ -102,12 +110,12 @@
 }
 
 .reserveCont{
-    justify-content: space-around;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 10px;
     padding: 10px;
 }
-
 .sub{
     margin: 10px;
     padding: 10px; 
@@ -115,20 +123,26 @@
 
 /* STYLE FOR OTHERS*/
 .others{
-    margin: 45px 0;
+    margin: 45px;
+    align-items: center;
 }
 
-.container{
+.others .container{
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .choice{
     background-color: rgb(255, 255, 255, 0.7);
     text-align: center;
-    float: left;
-    width: 30%;
     padding:10px;
-    margin: 10px;
+    width: 30%;
+    height: 0%;
+    margin:10px;
+    padding-bottom: 4%;
+    
 }
 
 .extras a{
