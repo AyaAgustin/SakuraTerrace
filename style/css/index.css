@@ -37,8 +37,7 @@
     background-color: rgba(255, 255, 255, .5);
     overflow: hidden;
     width: 67%;
-    height: 0;
-    padding-bottom: 15%;
+
 }
 
 .reservation select{
@@ -113,6 +112,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-flow: wrap;
     margin: 10px;
     padding: 10px;
 }
@@ -123,26 +123,23 @@
 
 /* STYLE FOR OTHERS*/
 .others{
-    margin: 45px;
+    display: flex;
     align-items: center;
 }
 
 .others .container{
-    overflow: hidden;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    flex-flow: wrap;
+    align-items: center;
 }
 
 .choice{
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(255, 255, 255, 0.5);
     text-align: center;
     padding:10px;
-    width: 30%;
-    height: 0%;
-    margin:10px;
-    padding-bottom: 4%;
-    
+    margin: 10px;
+    width: 30%; 
 }
 
 .extras a{

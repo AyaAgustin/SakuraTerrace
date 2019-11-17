@@ -63,7 +63,7 @@
     text-align: center;
     background-color: rgb(230, 94, 121,0.3);
     border-radius: 10px;
-    height: 200px;
+    height: 210px;
 }
 .reservation{
     justify-content:space-around;
@@ -100,6 +100,11 @@
 .reser h1{
     letter-spacing: 2px;
     padding: 20px;
+    margin: 0;
+}
+.reser h4{
+    margin: 0;
+    font-size: 20px;
 }
 .reser input[type ="date"]{
     background-color: rgb(226, 42, 79);
