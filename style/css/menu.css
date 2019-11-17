@@ -107,3 +107,9 @@ p{
     color: black;
     text-decoration: none;
 }
+
+footer p{
+    font-size: 18px;
+    font-family: 'Kreon', sans-serif;
+}
+
