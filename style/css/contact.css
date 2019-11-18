@@ -13,21 +13,25 @@
     margin-right: 250px;
     margin-top: 20px;
     margin-bottom: 100px;
+    min-width: 50%;
+
 }
 
 .contactHead{
     margin-bottom: 20px;
 }
 .contactLeft{
-    margin-right: 250px;
+    margin-right: 100px;
 }
 .contactRight{
     text-align: center;
 }
 
 #flexInf{
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    
 }
 #info input[type="text"]{
     text-align: center;
@@ -67,6 +71,7 @@
 }
 .reservation{
     justify-content:space-around;
+    flex-flow: wrap;
     display: flex;
 }
 .reservation select{
@@ -106,6 +111,7 @@
     margin: 0;
     font-size: 20px;
 }
+
 .reser input[type ="date"]{
     background-color: rgb(226, 42, 79);
     color: white;
