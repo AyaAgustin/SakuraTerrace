@@ -9,11 +9,8 @@
     background-color: rgb(255, 255, 255, 0.7);
     padding: 100px;
     padding-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    min-width: 50%;
+    margin: 2% auto;
+    max-width: 70%;
 
 }
 

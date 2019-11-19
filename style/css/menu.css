@@ -2,9 +2,10 @@
 .mainmenu{
     background: rgba(255, 255, 255, 0.7);
     width: 1100px;
-    margin-right: 100px;
-    margin-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 h2{
     margin-top: 0%;
     margin-bottom: 0%;
@@ -13,10 +14,9 @@ h2{
     color:white;
     text-align: center;
     background-color: rgb(61, 1, 18);
-
 }
+
 .meals{
-    
     font-family: "Lobster Two";
     src: url('../fonts/Lobster_Two/LobsterTwo-Bold.ttf');
     src: url('../fonts/Lobster_Two/LobsterTwo-BoldItalic.ttf');
@@ -26,19 +26,18 @@ h2{
     color: rgb(61, 1, 18); 
     white-space: nowrap;
 }
+
 img{
     width: 150px;
     height: 150px;
-    border: 10px solid rgb(61, 1, 18, 0.865);
-    
+    border: 10px solid rgb(61, 1, 18, 0.865);    
 }
+
 table{
     border-spacing: 30px;
     margin-right: 30px;
     margin-left: 30px;
-    width: 1000px;
-    
-    
+    width: 1000px;  
 }
 
 .first{

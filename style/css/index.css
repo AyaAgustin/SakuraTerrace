@@ -28,8 +28,10 @@
     height: 0%;
     padding-bottom: 30%;
 }
+
 /* STYLE FOR RESERVATION */
 .reservation{
+    margin: 2%;
     text-align: center;
 }
 
@@ -37,7 +39,6 @@
     background-color: rgba(255, 255, 255, .5);
     overflow: hidden;
     width: 67%;
-
 }
 
 .reservation select{
@@ -123,8 +124,7 @@
 
 /* STYLE FOR OTHERS*/
 .others{
-    display: flex;
-    align-items: center;
+    margin: 2%;
 }
 
 .others .container{

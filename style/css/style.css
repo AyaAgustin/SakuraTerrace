@@ -49,6 +49,7 @@
 h2{
     font-family: 'Yeon Sung', cursive;
 }
+
 h3{
     font-family: 'Hirosh';
 }
@@ -60,34 +61,28 @@ p{
 a{
     font-family: 'Josefin_Sans', sans-serif;
 }
+
 h4{
     font-family: 'Kreon', sans-serif;
 }
 
-/*
-a{
-    font-family: 'Amatic SC', cursive;
-}
-p{
-    font-family: 'Kreon', serif;
-}
-h1{
-    font-family: 'Kreon', serif;
-}
-*/
 input[type="text"]{
     font-family: 'Kreon', serif;
 }
+
 input[type="submit"]{
     font-family: 'Kreon', serif;
 }
+
 form{
     font-family: 'Kreon', serif;
 }
+
 option{
     font-family: 'Kreon', serif;
 }
 
+/* GLOBAL STYLE */
 html{
     scroll-behavior: smooth;
     margin: 0;
@@ -128,14 +123,6 @@ header{
     margin: 0;
     padding: 0%;
     overflow: hidden;
-
-}
-
-header .container{
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: unset;
 }
 
 header .left{
@@ -185,6 +172,7 @@ header a:hover{
     border-bottom: solid 5px rgb(240, 163, 200);
 }
 
+/* GLOBAL STYLE FOR FOOTER */
 footer{
     width: 100vw;
     display: block;
