@@ -7,10 +7,13 @@
 }
 h2{
     margin-top: 0%;
+    margin-bottom: 0%;
     font-family: 'Kreon', serif;
     font-size: 50px;
-    color:rgb(99, 46, 62);
+    color:white;
     text-align: center;
+    background-color: rgba(202, 37, 84, 0.685);
+
 }
 .meals{
     
@@ -81,31 +84,32 @@ p{
     src: url('../fonts/Lobster_Two/LobsterTwo-Regular.ttf');
 }
 .formenu{
+    margin-top: 4.5%;
+    width: 12.6%;
+    height: 70%;
     position: fixed;
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-top: 0%;
+    background-color: rgba(220, 20, 60, 0.5);
+    border-style: solid;
+    border-color: white;
 }
 .formenu1{
-    text-align: center;
-    
-    
+    color: white;
 }
 .formenu2{
-    
-    padding-right: 10px;
     list-style: none;
-    text-align: center;
-    display: inline;
     font-size: 25px;
-    color: black;
-    background-color: rgb(99, 46, 62, 0.5);
+    color:white;
 
 }
 .formenu3{
-    
-    color: black;
+    color: white;
     text-decoration: none;
+    border-bottom: solid;    
+}
+.formenu2 a:hover{
+    text-decoration: none;
+    color: rgb(125, 81, 101);
+    border-bottom: solid 5px rgb(168, 96, 128);
 }
 
 footer p{
