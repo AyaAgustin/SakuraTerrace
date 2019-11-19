@@ -8,6 +8,10 @@
 .chefFront h1{
    font-size: 60px;
    padding: 10px;
+   font-family: 'Kreon', serif;
+   border: 3px solid rgb(192, 137, 148, 0.5);
+   
+
 }
 #chefInt h3{
     font-size: 40px;
