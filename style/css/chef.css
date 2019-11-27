@@ -6,10 +6,10 @@
     margin: 2% auto;
 }
 .chefFront h1{
+    margin-bottom: 20px;
+    margin-top: 0;
    font-size: 60px;
-   padding: 10px;
    font-family: 'Kreon', serif;
-   border: 3px solid rgb(192, 137, 148, 0.5);
 }
 
 #chefInt h3{
@@ -64,9 +64,4 @@
     text-align: center;
     background-color: rgb(233, 86, 115,0.3);
     border-radius: 10px;
-}
-.chefCenter{
-    width: auto;
-    text-align: center;
-    padding: 10%;
 }
