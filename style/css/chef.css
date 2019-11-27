@@ -65,3 +65,8 @@
     background-color: rgb(233, 86, 115,0.3);
     border-radius: 10px;
 }
+.chefCenter{
+    width: auto;
+    text-align: center;
+    padding: 10%;
+}
