@@ -90,7 +90,7 @@ html{
 }
 
 body{
-    background-color: #fff;
+    background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,7 +98,6 @@ body{
     padding: 0;
 }
 
-/*
 #dark_overlay{
     min-width: 100%;
     height: 100%;
@@ -106,10 +105,8 @@ body{
     position: relative;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
 }
-*/
-
 
 .left{
     float: left;
@@ -121,7 +118,7 @@ body{
 
 /* STYLE FOR HEADER */
 header{
-    background-color: rgba(113, 42, 68, 0.7);
+    background-color: #F0476E;
     width: 100%;
     margin: 0;
     padding: 0%;
