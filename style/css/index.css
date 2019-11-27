@@ -36,7 +36,7 @@
 }
 
 .reservation .container{
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(220, 20, 60, 0.2);
     overflow: hidden;
     width: 67%;
 }
@@ -135,7 +135,7 @@
 }
 
 .choice{
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgba(220, 20, 60, 0.2);
     text-align: center;
     padding:10px;
     margin: 10px;
